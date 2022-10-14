@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><OG /></title>
+</head>
+<body>
+    <h1>&lt;OG /&gt;</h1>
+
+    <form method="POST">
+        <label for="backgroundColor">Background Color</label>
+        <input type="color" name="backgroundColor" id="backgroundColor" value="#000">
+
+        <label for="title">Title</label>
+        <input type="text" name="title" id="title" placeholder="Title" value="<OG />">
+        <label for="titleColor">Title Color</label>
+        <input type="color" name="titleColor" id="titleColor" value="#6A34FE">
+
+        <label for="text">Text</label>
+        <input type="text" name="text" id="text" placeholder="Text" value="URL-based OpenGraph image generator">
+        <label for="textColor">Text Color</label>
+        <input type="color" name="textColor" id="textColor" value="#FFFFFF">
+
+        <select name="font" id="font" value="Monospace"></select>
+
+        <button type="submit">Generate</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <div class="image-container">
+        <a id="generated-url" href=""></a>
+        <img id="generated-image" src="">
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
