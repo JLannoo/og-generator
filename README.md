@@ -28,7 +28,7 @@ If you pass nothing you get something like this:
 >[<button >Try it here</button>](http://localhost:5000/api/)
 
 URL used to generate this repo's image.
-> http://localhost:5000/api/?`backgroundColor=black`&`title=<OG />`&`titleColor=%236a34fe`&`text=URL-based OpenGraph image generator`&`textColor=white`&`font=Monospace`
+> http://localhost:5000/api/? `backgroundColor=black`&`title=<OG />`&`titleColor=%236a34fe`&`text=URL-based OpenGraph image generator`&`textColor=white`&`font=Monospace`
 >
 >[<button >Try it here</button>](http://localhost:5000/api/?backgroundColor=%23000000&title=%3COG%20/%3E&titleColor=%236a34fe&text=URL-based%20OpenGraph%20image%20generator&textColor=%23ffffff&font=Monospace)
 
