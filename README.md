@@ -1,6 +1,6 @@
 <div align="center"> 
     <h1> < OG /> </h1>
-    <img src="./src/public/image.png">
+    <img src="./public/image.png">
 </div>
 
 ## Description

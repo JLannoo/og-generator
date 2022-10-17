@@ -6,7 +6,7 @@ const app = express();
 import apiRoutes from './routes/api.routes';
 app.use('/api', apiRoutes);
 
-app.use('/', express.static('src/public'));
+app.use('/', express.static('public'));
 
 // Start server
 const PORT = process.env.SERVER_PORT || 5000;
